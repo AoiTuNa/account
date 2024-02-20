@@ -1,0 +1,27 @@
+POST http://localhost:8080/account
+Content-Type: application/json
+
+{
+  "id" : 1,
+  "number" : "979-005445-01-012",
+  "balance" : 3000000
+}
+
+###
+
+GET http://localhost:8080/account
+Accept: application/json
+
+###
+
+GET http://localhost:8080/1
+Accept: application/json
+
+###
+
+DELETE http://localhost:8080/1
+
+###
+
+GET http://localhost:8080/system/version
+Accept: application/json
